@@ -4,3 +4,5 @@ title = "CawCannon"
 
 [params]
   author = "CloudCannon"
+
+--disableKinds=taxonomy
