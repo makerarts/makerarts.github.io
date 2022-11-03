@@ -1,8 +1,8 @@
 baseURL = ""
-languageCode = "en-us"
-title = "CawCannon"
+languageCode = "en"
+title = "Maker Arts"
 
 [params]
   author = "CloudCannon"
 
---disableKinds=taxonomy
+disableKinds = ["taxonomy"]
