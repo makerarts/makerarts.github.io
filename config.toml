@@ -1,8 +1,8 @@
-baseURL = ""
+baseURL = "www.makerartsv2.co.uk"
 languageCode = "en"
 title = "Maker Arts"
 
 [params]
-  author = "CloudCannon"
+  author = "makerarts"
 
 disableKinds = ["taxonomy"]
