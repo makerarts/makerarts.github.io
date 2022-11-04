@@ -7,7 +7,7 @@ We have dedicated facilities for everything we do.
 
 ### Art Studio 
 
-<img src="C:\Users\Alex.Skinner\Documents\GitHub\hugo-learn-blog-template\static\ART.jpg" alt="Art Studio" width="200"/>
+C:\Users\Alex.Skinner\Documents\GitHub\hugo-learn-blog-template\assets\sass\images\ART.jpg
 
 ### The Lab
 
