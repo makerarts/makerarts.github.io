@@ -478,8 +478,8 @@ img {
 // Media queries
 
 /* Tablet menu */
-@media (max-width: 1024px){
-
+@media(max-width:1024px){
+  
   .post-preview {
     display: flex;
     margin-bottom: 20px;
@@ -603,6 +603,7 @@ img {
       }
     }
   }
+
 
   .top-nav__logo {
     order: 0;
