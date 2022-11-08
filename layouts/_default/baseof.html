@@ -26,12 +26,44 @@
               <li class="top-nav__link"><a href="/courses">Courses</a></li>
               <li class="top-nav__link"><a href="/contact">Contact</a>
             </div>
+          <div class="dropdown">
+              <a onclick="menu()" class="dropbtn">Menu</a>
+                <div id="menuDropdown" class="dropdown-content">
+                  <a href="/">Home</a>
+                  <a href="/about">About</a>
+                  <a href="/studios">Studios</a>
+                  <a href="/courses">Courses</a>
+                  <a href="/contact">Contact</a>
+                </div>
+            </div> 
           </ul>
         </nav>
+        <script>
+          /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function menu() {
+        document.getElementById("menuDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
       </header>
     <main class="main-content">
       <div class="container">
-        <div class="page-content">
+        
+        <div class="page-content" style="max-width:100%;height:auto;">
             {{ block "main" . }}{{ end }}
         </div>
     </div>
