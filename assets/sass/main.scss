@@ -16,9 +16,9 @@ $container-padding-lg: 96px;
 
 html, body {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   font-family: $primary-font;
+  min-height: 100vh;
 
 }
 
@@ -120,7 +120,7 @@ img {
   background-image: url('/Website_Lino.jpg');
   background-repeat: no-repeat;
   background-size:1100px auto;
-  background-position-x: center;
+  background-position: center;
   margin-top: 20px;
 
 
@@ -162,7 +162,7 @@ img {
   
   &__logo {
     /*border-right: 2px solid #1C1C1C;*/
-    max-width: auto;
+    width: auto;
     height: auto;
     padding: 10px 60px;
 
