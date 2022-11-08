@@ -129,10 +129,12 @@ img {
     color: rgb(253, 253, 253);
     text-shadow: 1px 1px 5px black;
     position: relative;
-    text-align: center;
-    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
     height: auto;
-    margin-left: 5%;
+    text-size-adjust:calc(1) ;
+
   }
 
 }
@@ -159,7 +161,7 @@ img {
   }
   
   &__logo {
-    border-right: 2px solid #1C1C1C;
+    /*border-right: 2px solid #1C1C1C;*/
     max-width: auto;
     height: auto;
     padding: 10px 60px;
@@ -278,7 +280,6 @@ img {
     }
   }
   &__title {
-    font-size: 3rem;
     padding:0;
     padding-bottom: 20px;
   }
@@ -501,7 +502,7 @@ img {
 
   
   .dropbtn {
-    color: #1C1C1C;
+    color: #414141;
     padding: 16px;
     font-size: 32px;
     border: none;
@@ -527,7 +528,7 @@ img {
   }
   
   .dropdown-content a {
-    color: black;
+    color: #414141;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -557,6 +558,7 @@ img {
     margin-top: 40px;
     &__header {
       top: 20px;
+      max-width: 350px;
     }
   }
 
@@ -641,10 +643,9 @@ img {
     margin-top: 40px;
 
     &__header {
-      top: 50px;
-      left: 50px;
+      top: 40px;
       font-size: 3rem;
-      text-align: left;
+      text-align: center;
     }
   }
 
