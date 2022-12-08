@@ -1,6 +1,6 @@
 baseURL = "http://www.makerarts.co.uk/"
 languageCode = "en"
-title = "Maker Arts"
+title = "Maker Arts CIC"
 
 [params]
   author = "makerarts"
