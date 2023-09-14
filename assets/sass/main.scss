@@ -51,6 +51,10 @@ a:hover {
   opacity: 0.5;
 }
 
+.current {
+  border-bottom: 1ps solid #1C1C1C;
+}
+
 .container {
   flex: 1 1 auto;
   max-width: 1200px;
