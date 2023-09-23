@@ -127,6 +127,64 @@ img {
   border-radius: 15px;
 }
 
+.three-columns-1 {
+  display: flex;
+  flex-wrap: wrap;
+  column-count: 3;
+  width: 900px;
+  column-width:100px;
+  padding: 0px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content:space-between;
+  
+
+  &_left {
+    flex: 30%;
+  }
+  &_mid {
+    flex: 30%;
+  }
+  &_right {
+    flex: 30%;
+  }
+}
+.three-columns-2 {
+  display: flex;
+  flex-wrap: wrap;
+  column-count: 3;
+  width: 900px;
+  column-width:100px;
+  padding: 0px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content:space-between;
+  
+
+  &_left {
+    flex: 30%;
+  }
+  &_mid {
+    flex: 30%;
+  }
+  &_right {
+    flex: 30%;
+  }
+}
+
+.two-columns {
+  column-count: 2;
+  column-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  &_top {
+    padding-bottom: 10px;
+  }
+}
+
 //Modal
 
 /* Add animation (Chrome, Safari, Opera) */
@@ -176,11 +234,11 @@ li {
   margin: auto;
   background-color: #f3f3f3;
   position: relative;
-  padding: 0;
+  padding: 20px;
   outline: 0;
   border: 1px #777 solid;
   text-align: justify;
-  width: 80%;
+  width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: auto;
 
@@ -195,7 +253,7 @@ li {
 .closebtn {
   text-decoration: none;
   float: right;
-  font-size: 35px;
+  font-size: 15px;
   font-weight: bold;
   color: #fff;
 }
@@ -594,9 +652,34 @@ max-height: 100px;
 
 // Media queries
 
-/* Tablet menu */
-@media(max-width:1024px){
-  
+/* Phone menu */
+@media(max-width:350px){
+  footer {
+    position: relative;
+    padding: 0;
+    padding-left: 0;
+  }
+  .footer-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 200px;
+    width: 400px;
+
+    &__left-group {
+    width: 100%
+    }
+  }
+  .footer-social {
+    height: 100px;
+    max-width: 100px;
+    align-items: right;
+    margin-bottom: 20px;
+  }
+
+  .main-content {
+    margin-top: 10px;
+  }
+
   .post-preview {
     display: flex;
     margin-bottom: 20px;
@@ -697,6 +780,40 @@ max-height: 100px;
         margin-left: 0;
       }
     }
+  }
+
+  .three-columns-1 {
+    flex-direction: column;
+    height: 50%;
+    max-width: 250px;
+    
+    &_left {
+      margin-bottom: 20px;
+    }
+    &_mid {
+      margin-bottom: 20px;
+    }
+  }
+  .three-columns-2 {
+    flex-direction: column;
+    height: 50%;
+    max-width: 250px;
+        
+    &_left {
+      margin-bottom: 20px;
+    }
+    &_mid {
+      margin-bottom: 20px;
+    }
+  }
+
+  .two-columns {
+    flex-direction: column;
+  }
+
+  .modal-dialog .modal-content {
+    margin-top: 50px;
+    width: 90%;
   }
 }
 
