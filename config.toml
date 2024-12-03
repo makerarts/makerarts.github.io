@@ -1,6 +1,6 @@
-baseURL = ""
+baseURL = "https://www.makerarts.co.uk/"
 languageCode = "en"
-title = "Angel and Ray Wedding"
+title = "Maker Arts CIC"
 
 [params]
   author = "makerarts"
