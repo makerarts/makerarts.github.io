@@ -1,8 +1,0 @@
-baseURL = "https://www.makerarts.co.uk/"
-languageCode = "en"
-title = "Maker Arts CIC"
-
-[params]
-  author = "makerarts"
-
-disableKinds = ["taxonomy"]
